@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Text Assignment</title>
+    <!-- Template adapted from https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/ -->
+    <!-- Inspired by https://maze.co/podcast/ & https://www.insurely.com/ for educational purpose-->
+    <!-- Lorem Ipsum from https://loremizr.monkeymatt.com/ -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"><img src="logo.png" alt=""></a>
+      <button type="button" class="light_button">Learn More &#x2794;</button>
+    </nav>
+    <header>
+      <div class="header_text">
+        <h1>Fonts and components</h1>
+        <p>The assignment is to create a mockup landing page design using fonts and gray scales only. There are two parts; first part is to implement a font hierarchy and the second part is to design UI cards.</p>
+      </div>
+      <div class="header_graphics"><img src="typewriter.png" alt="">
+      </div>
+    </header>
+    <main>
+      <section id="intro">
+        <div class="intro_text">
+          <h2>This is the intro section</h2>
+          <div class="get-demo"><input type="text"></input><button type="button">Request Demo &#x2794;</button></div>
+        </div>
+        <div class="intro_graphics">
+        </div>
+      </section>
+      <section id="cards">
+        <h2>Cards</h2>
+        <p>Invasor verius vestram quo opponat saepe dui mercenarius quo deputatos typi exuere justo duis ut orandum.</p>
+        <section id="card_container"></section>
+      </section> 
+      <section id="info">
+        <div class="info_text">
+          <h2>Very important info</h2>
+          <p>Per Lectus te p EX Scandala rem est velit Habent Neminern et Esse. Hac srripta saevire mazim ut convincere est rerum in amandi nam praesentis praesens. Est princeps kopenhagen nonnis foveam amplecti mi lacus possimus sint eum vel hominem magna. Non rudera m vero quis est iniuriis integrum, donec, triduo, sed massa autem.</p>
+          <button type="button">Learn More &#x2794;</button>
+        </div>
+      </section>
+      <section id="contact">
+        <div>
+          <h2>Here is where you get to contact the company</h2>
+          <div class="get-demo"><input type="text"></input><button type="button">Contact &#x2794;</button></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <img src="logo.png" alt="logo">
+        <ul>
+          <li><a>contact@logo.com</a></li>
+          <li><a>+45 23225343</a></li>
+        </ul>
+      </div>
+      <section>
+        <div>
+          <h3>Eos Purus</h3>
+          <ul>
+            <li><a href="">Stupore & Arcu Disentitur</a></li>
+            <li><a href="">Stupebant & Feliciora Erudite</a></li>
+            <li><a href="">Patiens & Quos Neglexi</a></li>
+            <li><a href="">Personas & Qualitalibus</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Stricte Natione ullo Quod</a></li>
+            <li><a href="">Lacus id Pennata Parabolas</a></li>
+            <li><a href="">Negabat</a></li>
+            <li><a href="">ME Pygmaeus Quasi</a></li>
+            <li><a href="">Species Origine Ipsam</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Press Kit</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  <template id="card_template">
+    <div class="card">
+      <img class="card_image" />
+      <div id="card_text">
+        <h3 class="card_name"></h3>
+        <p class="card_slogan"></p>
+        <p class="card_title"></p>
+        <p class="card_mail"></p>
+        <input type="button" value="Accept" class="card_button_positive"/>
+        <input type="button" value="Remove" class="card_button_negative"/>
+        
+      </div>
+      
+    </div>
+  </template>
+</html>
