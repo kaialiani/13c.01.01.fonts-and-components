@@ -10,8 +10,8 @@
 
 /* Color Properties */
 :root {
-  --color-darker: #282a3b;
-  --color-dark: #404353;
+  --color-darker: #3c3d41;
+  --color-dark: #474951;
   --color-light: #d2d4da;
   --color-lighter: #f3f4f8;
   /* you could add an accent color for CTAs and anchor tags ;-) */
